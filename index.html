@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- Google Fonts Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&family=Roboto:wght@100;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Tailwind CSS CLI Output Linked to html and package.json   -->
+    <link href="./dist.css" rel="stylesheet" />
+  </head>
+  <body class="bg-zinc-900 text-gray-200 font-poppins">
+    <!-- Hero Section -->
+    <section class="min-h-screen flex items-center justify-center">
+      <div
+        class="max-w-[1024px] w-[90%] mx-auto flex items-center justify-center flex-col-reverse md:flex-row gap-10"
+      >
+        <div class="flex-1 text-center md:text-left">
+          <h1
+            class="text-4xl md:text-[60px] font-bold text-primary leading-tight uppercase"
+          >
+            the audio people
+          </h1>
+          <p class="text-sm md:text-lg">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis,
+            velit.
+          </p>
+          <a href="#" class="btn-primary">Start Listening</a>
+        </div>
+        <div class="flex-1">
+          <div class="w-full h-[50vh] md:h-screen overflow-hidden relative">
+            <img
+              class="w-full h-full md:h-[150vh] object-contain md:absolute md:top-[-25%]"
+              src="./images/hero_section_img.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Host Section  -->
+    <section
+      class="min-h-screen flex items-center justify-center bg-orange-100 py-[100px] text-gray-700"
+    >
+      <div class="max-w-[1024px] w-[90%] mx-auto">
+        <div class="text-center max-w-lg mx-auto">
+          <h1 class="text-primary text-4xl font-bold uppercase">the host</h1>
+          <p class="text-sm md:text-base text-gray-700 mt-3">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi,
+            consequuntur?
+          </p>
+        </div>
+        <div class="flex gap-5 mt-11 md:flex-row flex-col">
+          <div class="bg-orange-200 p-5 rounded-xl flex-1">
+            <img
+              src="./images/host-1.png"
+              alt="host-1"
+              class="rounded-lg object-cover w-full"
+            />
+            <h2 class="text-gray-700 text-xl font-medium mt-3">Kamal hazad</h2>
+            <p class="text-sm md:text-base mt-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
+              id!
+            </p>
+          </div>
+          <div class="bg-slate-200 p-5 rounded-xl flex-1">
+            <img
+              src="./images/host-2.png"
+              alt="host-1"
+              class="rounded-lg object-cover w-full"
+            />
+            <h2 class="text-gray-700 text-xl font-medium mt-3">
+              Hassan Rasheed
+            </h2>
+            <p class="text-sm md:text-base mt-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
+              id!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Listen Section -->
+    <section class="flex items-center justify-center py-[100px]">
+      <div class="max-w-[1024px] w-[90%] mx-auto">
+        <h1 class="text-primary text-4xl font-bold text-center capitalize">
+          most listened <br />
+          episodes
+        </h1>
+        <div class="mt-10 max-w-[100%] overflow-x-auto rounded-lg">
+          <table
+            class="w-fit bg-neutral-800 rounded-lg min-w-[600px] text-center mx-auto overflow-hidden"
+          >
+            <thead>
+              <tr class="bg-zinc-700">
+                <th class="p-3">Guest</th>
+                <th class="p-3">Date</th>
+                <th class="p-3">Link</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="border-b border-gray-500">
+                <td class="p-3">John Doe, shaif Arfan</td>
+                <td class="p-3">25/07/2023</td>
+                <td class="p-3"><a href="" class="btn-secondary">listen</a></td>
+              </tr>
+              <tr class="border-b border-gray-500">
+                <td class="p-3">John Doe, shaif Arfan</td>
+                <td class="p-3">25/07/2023</td>
+                <td class="p-3">
+                  <a href="#" class="btn-secondary">listen</a>
+                </td>
+              </tr>
+              <tr class="border-b border-gray-500">
+                <td class="p-3">John Doe, shaif Arfan</td>
+                <td class="p-3">25/07/2023</td>
+                <td class="p-3">
+                  <a href="#" class="btn-secondary">listen</a>
+                </td>
+              </tr>
+              <tr>
+                <td class="p-3">John Doe, shaif Arfan</td>
+                <td class="p-3">25/07/2023</td>
+                <td class="p-3">
+                  <a href="#" class="btn-secondary">listen</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+    <!-- Statistics section -->
+    <section class="flex items-center justify-center py-[100px]">
+      <div class="max-w-[800px] w-[90%] mx-auto">
+        <div class="flex justify-between md:flex-row flex-col md:gap-5 gap-10">
+          <div class="text-center">
+            <h1 class="text-[80px] font-bold text-primary leading-tight">
+              +50
+            </h1>
+            <p class="text-xl capitalize">episodes</p>
+          </div>
+          <div class="text-center">
+            <h1 class="text-[80px] font-bold text-primary leading-tight">
+              +100
+            </h1>
+            <p class="text-xl capitalize">hours of talk</p>
+          </div>
+          <div class="text-center">
+            <h1 class="text-[80px] font-bold text-primary leading-tight">
+              +80
+            </h1>
+            <p class="text-xl capitalize">guests</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- CTA  Section-->
+    <section
+      class="flex items-center justify-center py-[100px] bg-cta-img bg-cover bg-center"
+    >
+      <div class="max-w-[800px] w-[90%] mx-auto">
+        <h1 class="text-4xl md:text-[80px] font-bold leading-tight uppercase">
+          don't miss the next episode..
+        </h1>
+        <a href="#" class="btn-primary">follow now</a>
+      </div>
+    </section>
+    <!-- Footer Section  -->
+    <section class="flex items-center justify-center py-[100px]">
+      <div class="max-w-[500px] w-[90%] mx-auto text-center">
+        <h1
+          class="text-4xl md:text-[80px] text-primary font-extrabold leading-tight uppercase"
+        >
+          the audio people
+        </h1>
+        <p class="text-base md:text-lg text-gray-200 my-3">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium,
+          officiis? Ab deserunt consequuntur dolores placeat qui ipsum velit
+          repellendus obcaecati.
+        </p>
+      </div>
+    </section>
+  </body>
+</html>

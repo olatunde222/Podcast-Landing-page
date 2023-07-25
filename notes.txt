@@ -1,0 +1,16 @@
+- to run the script command use "npm run tailwind:watch"
+- to run the server use "npx lite-server"
+- to connect all the content from the HTML file to the tailwind css use "[*.html]" in the 
+config file. 
+- background, primary color, and fonts settings in tailwind config file.
+     extend: {
+      backgroundImage: {
+        "cta-img": "url(./images/mic.png)",
+      },
+      colors: {
+        primary: "#ED7F39",
+      },
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
+      }
+}
